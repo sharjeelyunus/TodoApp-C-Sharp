@@ -10,7 +10,7 @@ namespace ListBox
         private void button1_Click(object sender, EventArgs e)
         {
             listBox1.Items.Add(textBox1.Text);
-            textBox1.Text = "";
+            textBox1.Text = "huhu";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -40,7 +40,7 @@ namespace ListBox
 
         private void button5_Click(object sender, EventArgs e)
         {
-            listBox1.Sorted = true;
+            listBox1.Sorted = false;
         }
     }
 }
